@@ -1,0 +1,32 @@
+Get message
+    -Receive message
+    -Get user
+
+Check for a time
+    -Regular expression for time
+    -Parse AM/PM
+    -Standardize time
+
+Check for a date
+    -Regular expression for date
+    -Standardize date
+
+Check user timezone
+    -Check dictionary
+
+Check user dst
+    -Use library for date and time to figure out dst modifier
+    -Return modifier
+
+Convert other timezones
+    -Loop through relevant timezones
+    -Standardize time
+    -Check date modifier
+    -Return time and date
+
+Check other timezones for dst
+    -Use library for converted date and time
+    -Get modifier
+    -Check for date conversion
+
+Check other dates
